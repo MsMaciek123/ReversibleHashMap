@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.msmaciek'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.oracle.coherence.ce:coherence:22.06.8'
+    implementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+test {
+    useJUnitPlatform()
+}
