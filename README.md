@@ -18,6 +18,7 @@ repositories {
    
 dependencies {
     implementation 'com.github.MsMaciek123:ReversibleHashMap:VERSION'
+    implementation 'com.oracle.coherence.ce:coherence:22.06.8'
 }
 ```
 
@@ -38,6 +39,11 @@ Maven:
             <groupId>com.github.MsMaciek123</groupId>
             <artifactId>ReversibleHashMap</artifactId>
             <version>VERSION</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.coherence.ce</groupId>
+            <artifactId>coherence</artifactId>
+            <version>22.06.8</version>
         </dependency>
     </dependencies>
 </project>
